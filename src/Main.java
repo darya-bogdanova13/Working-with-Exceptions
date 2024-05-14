@@ -8,8 +8,8 @@ public class Main {
 
         try {
             Validator.validate(login, password, confirmPassword);
-        } catch (WrongLoginException | WrongPasswordException exception) {
-            exception.printStackTrace();
+        } catch (WrongLoginException | WrongPasswordException Exception) {
+            Exception.printStackTrace();
         } finally {
             System.out.println("Верно");
         }
